@@ -31,7 +31,6 @@ body{
 }
 .nav2 ul{
     list-style: none;
-    /* text-align: center; */
 }
 .nav2 ul li{
     display: inline-block;
@@ -53,27 +52,17 @@ body{
     top: 1rem;
     display: none;;
 }
-.nav2 ul ul li{
+.nav2 ul ul li a{
+    color: var(--primary-color);
     background-color: tan;
     border-bottom: 0.1rem solid white;
-    color: var(--primary-color);
-}
-.nav2 ul ul li a{
-    border-bottom: 0.1rem solid white;
-    list-style: var(--active-color);
-    background-color: var(--secondary-color);
-    color: var(--primary-color);
-}
-.nav2 ul li:hover >ul {
-    display: block;
-}
-.nav2 ul ul li:hover{
-    background-color: var(--secondary-color);
-    color: var(--primary-color);
 }
 .nav2 ul ul li a:hover{
     background-color: var(--active-color);
     color: var(--primary-color);
+}
+.nav2 ul li:hover >ul {
+    display: block;
 }
 .login-form{
     line-height: 1rem;

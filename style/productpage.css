@@ -63,14 +63,14 @@ button:hover{
     top: 1rem;
     display: none;;
 }
-.nav2 ul ul li{
+
+.nav2 ul ul li a{
+    color: var(--primary-color);
     background-color: tan;
     border-bottom: 0.1rem solid white;
-    color: var(--primary-color);
 }
-.nav2 ul ul li a{
-    border-bottom: 0.1rem solid white;
-    list-style: var(--active-color);
+.nav2 ul ul li a:hover{
+    background-color: var(--active-color);
     color: var(--primary-color);
 }
 
@@ -80,11 +80,6 @@ button:hover{
 .nav2 ul ul li:hover{
     background-color: var(--active-color);
 }
-.nav2 ul ul li a:hover{
-    color: var(--primary-color);
-    background-color: var(--active-color);
-}
-
 
 .add2cart{
     background-color: var(--active-color);
